@@ -25,8 +25,8 @@ Parameters description:
 Table describing the meaning of ```<SCENARIO>``` codes:
 | Event Condition\Rule Type | Sequential | Complex |
 |----------------------------|------------|---------|
-| **Dense**                      | 2          | 6       |
-| **Sparse**                     | 4          | 8       |
+| Dense                      | 2          | 6       |
+| Sparse                     | 4          | 8       |
 
 The Event Condition affects the inter-arrival time between different physiological measurements. Instead, for a more detailed description of Rule Types, please refer to this [paper](https://www.researchgate.net/profile/Davide_Calvaresi/publication/321282796_Event_Calculus_Agent_Minds_Applied_to_Diabetes_Monitoring/links/5a1bc3144585155c26ae034f/Event-Calculus-Agent-Minds-Applied-to-Diabetes-Monitoring.pdf).
 
