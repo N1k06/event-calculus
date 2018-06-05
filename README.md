@@ -1,4 +1,4 @@
-# Cached and Indexed Event Calculus for Diabetes Monitoring
+# Cached & Indexed Event Calculus for Diabetes Monitoring
 
 The Event Calculus (EC) is a First Order Logic formalism to represent properties of the world and how they evolve with time. Given its expressiveness and reasoning capabilities, it is a particularly useful tool to build intelligent agents. 
 Applying logic reasoning to monitoring scenarios is indeed a challenging task, given the high amount of data and rules that have to be checked. Even though the Cached EC improves standard EC by moving computation from query time to update time and by proposing a caching technique for fluents, this is sometimes not enough. Indexing strategies can provide a further optimization by handling ordered data more efficiently.
