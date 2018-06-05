@@ -25,7 +25,7 @@ Parameters description:
 Table describing the meaning of ```<SCENARIO>``` codes:
 
 | Event Condition\Rule Type  | Sequential | Complex |
-|----------------------------|:----------:|--------:|
+|----------------------------|:----------:|:-------:|
 | **Dense**                  | 2          | 6       |
 | **Sparse**                 | 4          | 8       |
 
