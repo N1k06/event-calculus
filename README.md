@@ -5,7 +5,7 @@ The Event Calculus (EC) is a First Order Logic formalism to represent properties
 Applying logic reasoning to monitoring scenarios is indeed a challenging task, given the high amount of data and rules that have to be checked. Even though the Cached EC improves standard EC by moving computation from query time to update time and by proposing a caching technique for fluents, this is sometimes not enough. Indexing strategies can provide a further optimization by handling ordered data more efficiently.
 This repository contains material to run different Cached and Indexed EC-based agent minds on text logs extracted from Continuous Glucose Monitoring (CGM) dataset and realistic synthetic datasets.
 
-Physiological records in the datasets (Blood Glucose and Blood Pressure) are treated as events within the EC formalism; such records have to be fed to the agent minds, and can trigger the monitoring rules included in them.
+Physiological records in the datasets (Blood Glucose and Blood Pressure) are treated as events within the EC formalism.  Such events have to be fed to the agent minds, and can trigger the monitoring rules included in them.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ For a more detailed description, please refer to this [paper](https://todo).
 ## CGM Dataset
 
 Parts of [this](https://t1dexchange.org/pages/resources/our-data/studies-with-data/) dataset have been included this repository.
-They have been put inside the  ```CGMDataset``` directory, in the form of .csv files that be can easily fed in the EC agent minds.  
+They have been put inside the ```CGMDataset``` directory, in the form of .csv files that be can easily fed in the EC agent minds.  
 
 ## Running the tests
 
